@@ -1,0 +1,13 @@
+.Header{
+   margin-bottom: 40px;
+}
+@media screen and (max-width:500px) {
+    .Header{
+        width: 100%;
+        margin:0px auto;
+        margin-bottom: 30px;
+    }
+    .Header input{
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+.App{
+  display: grid;
+  grid-template-columns: 18% 1fr;
+  min-height:100svh;
+  padding:40px;
+  background-color: var(--primary-background-black);
+}
+.body-wrapper{
+  display: grid;
+    grid-template-rows: auto 1fr;
+}
+@media screen and (max-width:500px) {
+    .App{
+      grid-template-columns: auto;
+      grid-template-rows: 10% 1fr;
+      padding:20px;
+    }
+    .body-wrapper{
+      height:auto;
+    }
+}

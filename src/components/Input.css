@@ -1,0 +1,31 @@
+.Input{
+    display: block;
+    position:relative;
+}
+.Input label{
+    display: none;
+}
+.Input img{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(50%,40%);
+    height:1rem;
+    width: 1rem;
+}
+.Input input{
+    border-radius: 10px;
+    outline-color: transparent;
+    border: 0;
+}
+.Input input:focus{
+    outline-color: transparent;
+    outline:0;
+}
+.Input input:focus-within{
+    outline-color: transparent;
+    outline:0;
+}
+.Input input::placeholder{
+    color:var(--black)
+}
